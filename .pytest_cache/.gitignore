@@ -1,0 +1,16 @@
+# Created by pytest automatically.
+# Virtual environment
+venv/
+grpo/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# C extensions
+*.so
+*.dylib
+
+# PyTorch binaries
+libtorch*

@@ -1,0 +1,6 @@
+[
+  "tests/test_grpo.py::test_grpo_initialization",
+  "tests/test_grpo.py::test_invalid_group_size",
+  "tests/test_grpo.py::test_invalid_input_types",
+  "tests/test_grpo.py::test_loss_computation"
+]

@@ -1,0 +1,12 @@
+README.md
+setup.py
+grpoptim/__init__.py
+grpoptim/core.py
+grpoptim.egg-info/PKG-INFO
+grpoptim.egg-info/SOURCES.txt
+grpoptim.egg-info/dependency_links.txt
+grpoptim.egg-info/requires.txt
+grpoptim.egg-info/top_level.txt
+grpoptim/c_src/grpo.c
+grpoptim/c_src/libgrpo.dylib
+tests/test_grpo.py
