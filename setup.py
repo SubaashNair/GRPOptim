@@ -19,7 +19,8 @@ grpo_module = Extension(
 
 setup(
     name="grpoptim",
-    version="0.1.3",
+    version="0.1.4",
+    platforms=["macosx_10_15_x86_64", "manylinux2014_x86_64", "win_amd64"],
     author="Subashanan Nair",
     author_email="subaashnair12@gmail.com",
     description="Group Relative Policy Optimization for Efficient RL Training",
