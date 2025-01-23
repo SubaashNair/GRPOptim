@@ -1,6 +1,11 @@
 from setuptools import setup, find_packages, Extension
 from setuptools.command.build_ext import build_ext
 import os
+import codecs
+
+def read(filename):
+    with codecs.open(os.path.join(os.path.dirname(__file__), filename), encoding='utf-8') as f:
+        return f.read()
 
 class BuildExt(build_ext):
     def build_extensions(self):
@@ -19,7 +24,7 @@ grpo_module = Extension(
 
 setup(
     name="grpoptim",
-    version="0.1.4",
+    version="0.1.5",
     platforms=["macosx_10_15_x86_64", "manylinux2014_x86_64", "win_amd64"],
     author="Subashanan Nair",
     author_email="subaashnair12@gmail.com",
