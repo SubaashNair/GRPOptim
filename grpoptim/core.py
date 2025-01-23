@@ -87,10 +87,6 @@ class GRPO:
         # Validate input shapes
         if len(log_probs_new) != batch_data['group_size']:
             raise ValueError("log_probs_new length must match group_size")
-        # # Validate input shapes
-        # if len(log_probs_new) != batch_data['group_size']:
-        #     raise ValueError("log_probs_new length must match group_size")
-            
         # Prepare batch structure
         batch = GRPOBatch(
             batch_data['log_probs_old'].ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
