@@ -19,7 +19,7 @@ grpo_module = Extension(
 
 setup(
     name="grpoptim",
-    version="0.1.1",
+    version="0.1.2",
     author="Subashanan Nair",
     author_email="valiban12@gmil.com",
     description="Group Relative Policy Optimization for Efficient RL Training",
