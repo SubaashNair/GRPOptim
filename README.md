@@ -1,11 +1,11 @@
 # **GRPOptim** 🚀  
 **Group Relative Policy Optimization for Efficient Reinforcement Learning**  
 
-[![PyPI Version](https://img.shields.io/pypi/v/GRPOptim.svg)](https://pypi.org/project/GRPOptim/)  
+[![PyPI Version](https://img.shields.io/pypi/v/GRPOptim.svg)](https://pypi.org/project/grpoptim/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)  
-[![Python Versions](https://img.shields.io/pypi/pyversions/GRPOptim.svg)](https://pypi.org/project/GRPOptim/)  
-[![Downloads](https://static.pepy.tech/badge/GRPOptim/month)](https://pepy.tech/project/GRPOptim)  
-[![Build Status](https://github.com/subaashnair/GRPOptim/actions/workflows/tests.yml/badge.svg)](https://github.com/subaashnair/GRPOptim/actions)  
+[![Python Versions](https://img.shields.io/pypi/pyversions/GRPOptim.svg)](https://pypi.org/project/grpoptim/)  
+[![Downloads](https://static.pepy.tech/badge/GRPOptim/month)](https://pepy.tech/project/grpoptim)  
+[![Build Status](https://github.com/subaashnair/GRPOptim/actions/workflows/tests.yml/badge.svg)](https://github.com/subaashnair/grpoptim/actions)  
 
 ---
 
